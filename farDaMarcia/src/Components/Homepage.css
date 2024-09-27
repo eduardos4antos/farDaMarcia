@@ -1,0 +1,63 @@
+.card-produto {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    width: 150px; /* Define uma largura fixa para todas as imagens */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 5px; /* Para bordas arredondadas, se desejado */
+  }
+  
+  
+  .card h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .card button {
+    background-color: #ce1f3a;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .card button:hover {
+    background-color: #ce1f3a;
+  }
+
+  .preco {
+    font-size: 1.2rem; /* Tamanho da fonte do preço */
+    color: #ce1f3a; /* Cor vermelha para destacar o preço */
+    margin: 10px 0; /* Espaço acima e abaixo do preço */
+    font-weight: bold; /* Deixar o preço em negrito */
+  }
+  
